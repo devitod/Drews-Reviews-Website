@@ -1,0 +1,204 @@
+
+/* main webpage selectors*/
+html {
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+main {margin-left: 5%;
+margin-right: 5%;}
+
+address {
+    display: none;
+}
+
+header h1 img {
+    display: none;
+}
+
+body {
+background-color: #122251;
+}
+
+/* body:before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+} */
+
+header {
+    background-color: #698F3F;
+    border: #F5CAC3;
+    border-radius: 2em;
+}
+
+footer {
+    font-size: .8rem;
+    color: white;
+    margin-top: 10rem;
+}
+
+img {
+   width: 20%;
+}
+
+/* This is the email seciton below header */
+header p {
+    background-color: rgb(3, 3, 59);
+    border-bottom: 10%;
+    border: white;
+    border-radius: 10%;
+    color: white;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+/* learning how to use pseudo classes */
+
+a:link {
+color: darkblue;
+text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ol li:first-child {
+    font-weight: bold;
+}
+
+a:visited
+{
+    color: black;  
+}
+
+/* ID selectors below */
+/* All things ravioli title */
+#titlehead {
+    margin: auto;
+    width: 50%;
+    vertical-align: middle;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: .5em;
+    margin-top: 2.5em;
+}
+
+#logo {
+    display: none;
+    background-color: beige;
+    border-radius: 20%;
+    border-color: black;
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    width:10%;
+    opacity: 80%;
+
+}
+
+#Reviews {
+    background-color: crimson;
+    color: whitesmoke;
+}
+
+#Reviews p 
+{
+    background-color: hotpink;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+}
+
+#header-box {
+    width: auto;
+}
+
+#playlists {
+    background-color: thistle;
+    color: crimson;
+}
+
+/* image resizing practice */
+/* #cdpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+} */
+
+
+/* class selectors */
+
+.my-list {
+
+    color: black;
+    text-decoration: none;
+    background-color: #F7EDE2;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    font-size: 120%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 1em;
+    text-align: center;
+}
+
+/* .my-list li {
+} */
+
+.my-list a{
+    float:left;
+    color: #122251;
+    display: block;
+    text-align: center;
+    padding: 2%;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.otherlist {
+    color:white;
+    list-style:disc;
+    
+}
+
+
+.important-playlist {
+    font-weight: bold;
+    background-color: darkblue;
+    color: white;
+}
+
+/* This class applies to almost all text elements */
+.pgraph {
+    color: white;
+    border: 3px solid white;
+    border-radius: 1.5%;
+    padding:2%;
+    margin-bottom: 1rem;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+
+}
+.special {
+    font-style: italic;
+    background-color: peachpuff;
+}
